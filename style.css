@@ -1,0 +1,46 @@
+body{
+  margin: 0;
+}
+
+h1{
+  font-size:45px;
+  text-align:center;
+  border-bottom:1px solid gray;
+  margin:0;
+  padding:20px;
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+ol{
+  border-right: 1px solid gray;
+  width:305px;
+  margin:0;
+  padding: 20px 0px 0px 30px;
+}
+
+#grid{
+  display: grid;
+  grid-template-columns: 335px 1fr;
+  width:00px;
+  margin:10;
+  padding: 0px;
+}
+
+#memo{
+  padding: 25px 0px 0px 25px;
+  width:800px;
+}
+
+@media(max-width:800px){
+  #grid{
+    display: block;
+  }
+  ol{
+    border-right: none;
+  }
+
+}

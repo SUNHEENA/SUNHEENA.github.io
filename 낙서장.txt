@@ -1,0 +1,40 @@
+<!doctype html>
+<html> </html>
+ <head> </head>
+ <body> </body>
+
+
+문법
+uaf-8로 문서열어라라고 선언하는거 /한글읽힘 : <meta charset="utf-8">
+목차 목록의list의 그룹을 만들수있는 부모-숫자. 으로만들기 ( ordered list): <ol> </ol>
+목차 목록  list 의 그룹을 만들수있는 부모-숫자말고 동글뱅이. 으로 만들어짐 tag(unordered list): <ul></ul>
+ 목차 목록 list : <li> </li>
+브라우저 tap에 타이틀부여 - 검색엔진에서 불러올때 활용 됨. : <title>  </title>
+링크 선언:  <a>
+링크 연결 : <a href="https://papago.naver.com/">문구</a>
+링크 새탭에서 연결 : <a href="https://papago.naver.com/" target="_blank">문구</a>
+ <table>
+   <tr>
+   <tb>
+ 
+
+ <div>
+이미지선언(그림은사이트 unsplash참고) : <img>
+   <img source="cust.jpg">
+   <img src="cust.jpg" width="100%"> #크기조정
+   <img src="cust.jpg" width="100"> #크기조정
+
+ 
+줄바꿈(닫히는 tag없음) : <br>
+단락 구분(하나의 단락으로 정보를 구분시켜줌) : <p> </p>
+단락 구분 스타일부여(css)-단락 상단에 45px만큼 칸띄우기 : <p style="margin-top:45px;">
+단락 구분 스타일부여(css)-단락에 폰드 사이즈부여 : <p style="font-size:45px;">
+<t>
+ <form>
+ <ul>
+ <span>
+ <script>
+
+
+ 굵은 글씨 : <strong> </strong>
+ 밑줄 : <u> </u>
